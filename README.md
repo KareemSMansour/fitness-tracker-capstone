@@ -79,5 +79,28 @@ flutter run -d chrome
 ```
 
 
+🍎 Run on iOS (macOS only)
+⚠️ Requires macOS with Xcode installed
+
+Install Xcode
+
+Run the following to ensure CocoaPods is available:
+
+sudo gem install cocoapods
+Set up iOS dependencies:
+
+
+cd ios
+pod install
+cd ..
+Connect an iOS device or launch an iOS simulator:
+
+open -a Simulator
+Run the app:
+
+flutter run -d ios
+💡 You may be prompted to open the project in Xcode to sign it with your Apple Developer account the first time.
+
+
 
 
