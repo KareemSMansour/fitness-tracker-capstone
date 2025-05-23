@@ -36,14 +36,6 @@ Before you begin, make sure the following are installed:
 Verify Flutter is installed:
 
 flutter --version
-
-Perfect Kareem — here’s the continuation of your current `README.md`, flowing smoothly from where you left off:
-
----
-
-````markdown
----
-
 ### 🚀 Installation
 
 Clone the repository and install dependencies:
@@ -86,16 +78,6 @@ flutter run -d DEVICE_ID # replace with actual ID
 flutter run -d chrome
 ```
 
----
-
-Let us know if you encounter any issues during setup.
-
-```
-
----
-
-Let me know if you'd like me to help restructure the top section, add a contributor's guide, or insert badges (build passing, platform support, etc.) for extra polish.
-```
 
 
 
