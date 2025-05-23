@@ -78,28 +78,44 @@ flutter run -d DEVICE_ID # replace with actual ID
 flutter run -d chrome
 ```
 
+Thanks Kareem — here's the **Run on iOS** section cleaned up to match the clean code block formatting and structure used in the "Web" section:
 
-🍎 Run on iOS (macOS only)
-⚠️ Requires macOS with Xcode installed
+---
 
-Install Xcode
+### 🍎 Run on iOS (macOS only)
 
-Run the following to ensure CocoaPods is available:
+> ⚠️ Requires macOS with [Xcode](https://developer.apple.com/xcode/) installed
 
+1. Install CocoaPods:
+
+```bash
 sudo gem install cocoapods
-Set up iOS dependencies:
+````
 
+2. Set up iOS dependencies:
 
+```bash
 cd ios
 pod install
 cd ..
-Connect an iOS device or launch an iOS simulator:
+```
 
+3. Connect an iOS device or launch the simulator:
+
+```bash
 open -a Simulator
-Run the app:
+```
 
+4. Run the app:
+
+```bash
 flutter run -d ios
-💡 You may be prompted to open the project in Xcode to sign it with your Apple Developer account the first time.
+```
+
+> 💡 You may be prompted to open the project in Xcode to sign it with your Apple Developer account the first time.
+
+```
+
 
 
 
